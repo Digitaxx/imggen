@@ -1,0 +1,41 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.holst{
+  background: black;
+  width: 600px;
+  height: 800px;
+}
+.seed-number{
+  background: white;
+  color: black;
+  width: 150px;
+}
+.seed-menu{
+  background: black;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
+}
+.gen-menu{
+  background: black;
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-between;
+}
+.input-seed{
+  width: 150px;
+  box-sizing: border-box;
+  border: none;
+}
